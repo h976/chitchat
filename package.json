@@ -1,0 +1,27 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "realtime chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon sever"
+  },
+  "repository": {
+    "type": "git",
+    "url": "h976"
+  },
+  "keywords": [
+    "hunu"
+  ],
+  "author": "hunu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
